@@ -1,7 +1,3 @@
-如果你用 **Azure**，要讓別人測試你的 AI application，有幾種常見的做法，取決於你要的 **速度、穩定性、成本**：
-
----
-
 ## **1. Azure App Service（最快速 API Hosting）**
 
 **What**
@@ -94,8 +90,6 @@
 * 想要自動管理依賴、運算資源
 
 ---
-
-## 我的建議：
 
 * **快速 Demo（1\~2 小時內上線）** → Azure App Service + GitHub
 * **需要 GPU 或複雜環境** → Docker + Azure Container Apps

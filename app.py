@@ -21,13 +21,13 @@ def predict(input: TextIn):
 def root():
     return {"message": "Welcome to the AI prediction API!"}
 
-# # Automatic API docs
-# @app.get("/docs")
-# def docs():
-#     return {"redirect": "/docs"}
+# Health check endpoint (useful for Azure)
+@app.get("/health")
+def health_check():
+    return {"status": "healthy"}
 
 if __name__ == "__main__":
     import uvicorn
+    # Azure App Service provides the PORT environment variable
     port = int(os.environ.get("PORT", 8000))
     uvicorn.run(app, host="0.0.0.0", port=port)
-
