@@ -8,7 +8,7 @@
 
 * 你把應用（FastAPI、Flask、Streamlit 等）部署到 Azure App Service
 * Azure 會給你一個公開 URL，例如：
-  `https://my-ai-app.azurewebsites.net`
+  `my-ai-app-h4cphwabc7h2gkhx.canadacentral-01.azurewebsites.net`
 * 別人直接用瀏覽器或 API 呼叫這個 URL 就能測試
 
 **Why 用它**
